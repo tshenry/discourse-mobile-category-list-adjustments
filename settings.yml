@@ -1,0 +1,20 @@
+hide_featured_topics:
+  type: bool
+  default: false
+  description:
+    en: "Hide the topics that display under each category"
+hide_subcategories:
+  type: bool
+  default: false
+  description:
+    en: "Hide the list of subcategories"
+hide_stat_footer:
+  type: bool
+  default: false
+  description:
+    en: "Hide the category statistics"
+use_subtle_dividing_borders:
+  type: bool
+  default: false
+  description:
+    en: "Use a subtle color for the dividing border instead of the category color"

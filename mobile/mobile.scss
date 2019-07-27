@@ -1,0 +1,40 @@
+@if ($hide_featured_topics == "true") {
+  .categories-list {
+    .category-topic-link {
+      display: none;
+    }
+    .category-list {
+      th {
+        padding-top: 2px;
+      }
+    }
+    .subcategories-list {
+      border: none;
+      td {
+        padding-top: 0;
+      }
+    }
+  }
+}
+
+@if ($hide_subcategories == "true") {
+  .subcategories-list {
+    display: none;
+  }
+}
+
+@if ($hide_stat_footer == "true") {
+  .category-list-item>footer {
+    display: none;
+  }
+  .subcategories-list {
+    border-bottom: 0;
+  }
+}
+
+@if ($use_subtle_dividing_borders == "true") {
+  .category-list-item {
+    border-top: 1px solid $primary-low !important;
+  }
+}
+
